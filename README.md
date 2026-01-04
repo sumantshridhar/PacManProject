@@ -18,6 +18,7 @@ A classic **Pac-Man** game implemented using **Java Swing**, featuring multiple 
 1. Ensure JDK is installed
 2. Compile and run:
    ```bash
+   cd src
    javac App.java
    java App
 
