@@ -112,33 +112,46 @@ HUD is rendered separately using a vertical offset to keep gameplay area clean.
 
 ## 🗂️ Project Structure
 
-Pacman/
-│
-├── App.java // Main entry point (JFrame setup)
-├── Pacman.java // Game logic, rendering, input handling
-├── Levels.java // Level maps
-│
-├── Images/
-│ ├── wall.png
-│ ├── pacmanUp.png
-│ ├── pacmanDown.png
-│ ├── pacmanLeft.png
-│ ├── pacmanRight.png
-│ ├── blueGhost.png
-│ ├── orangeGhost.png
-│ ├── pinkGhost.png
-│ ├── redGhost.png
-│ ├── cherry.png
-│ ├── heart.png
-│ ├── mute.png
-│ └── unmute.png
-│
-├── Music/
-│ ├── PacmanMusic.wav
-│ ├── Eating.wav
-│ ├── Cherry.wav
-│ └── Death.wav
-│
-└── Fonts/
-└── PressStart2P-Regular.ttf
+\---PacManJava
+    |   README.md
+    |
+    +---.vscode
+    |       settings.json
+    |
+    \---src
+        |   App.class
+        |   App.java
+        |   Levels.class
+        |   Levels.java
+        |   Pacman$Block.class
+        |   Pacman$GameState.class
+        |   Pacman.class
+        |   Pacman.java
+        |
+        +---Fonts
+        |       PressStart2P-Regular.ttf
+        |
+        +---Images
+        |       blueGhost.png
+        |       cherry.png
+        |       cherry2.png
+        |       heart.png
+        |       mute.png
+        |       orangeGhost.png
+        |       pacmanDown.png
+        |       pacmanLeft.png
+        |       pacmanRight.png
+        |       pacmanUp.png
+        |       pinkGhost.png
+        |       powerFood.png
+        |       redGhost.png
+        |       scaredGhost.png
+        |       unmute.png
+        |       wall.png
+        |
+        \---Music
+                Cherry.wav
+                Death.wav
+                Eating.wav
+                PacmanMusic.wav
 
