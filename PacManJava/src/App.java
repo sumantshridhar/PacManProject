@@ -1,16 +1,17 @@
 import javax.swing.JFrame;
 
 public class App {
+    private static final int HUD_HEIGHT = 120;
     public static void main(String[] args) throws Exception {
         int rowCount = 21;
         int columnCount = 19;
         int tileSize = 32;
         int boardWidth = columnCount*tileSize;
-        int boardHeight = rowCount*tileSize;
+        int boardHeight = (rowCount*tileSize) + HUD_HEIGHT; // extra space for score display
 
         JFrame frame = new JFrame("Pac Man");
-        //frame.setVisible(true);
-        frame.setSize(boardWidth,boardHeight);
+        frame.setVisible(true);
+        frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -19,11 +20,6 @@ public class App {
         frame.add(pacmanGame);
         frame.pack();
         pacmanGame.requestFocus();
-        frame.setVisible(true);
-
-
-
-
-    
+        frame.setVisible(true);    
     }
 }
