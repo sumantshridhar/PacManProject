@@ -327,7 +327,6 @@ public class Pacman extends JPanel implements ActionListener, KeyListener {
                 drawDimBackground(g, 0.7f);
                 drawCenteredText(g, "LEVEL " + (currentLevel + 1), boardHeight/2 - 125, hudFont.getFontName());
                 drawCenteredText(g, "Get Ready!", boardHeight/2 - 85, smallFont.getFontName());
-                drawCenteredText(g, "Press 'ENTER' to Start", boardHeight/2 - 45, smallFont.getFontName());
                 return;
             case WIN_STATUS:
                 drawDimBackground(g, 0.7f);
