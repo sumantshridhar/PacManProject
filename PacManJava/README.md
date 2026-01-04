@@ -114,7 +114,6 @@ HUD is rendered separately using a vertical offset to keep gameplay area clean.
 
 ```text
 PacManJava/
-├── README.md
 ├── .vscode/
 │   └── settings.json
 │
@@ -147,3 +146,4 @@ PacManJava/
         ├── Cherry.wav
         └── Death.wav
 ```
+
