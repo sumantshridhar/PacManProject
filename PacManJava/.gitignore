@@ -1,5 +1,5 @@
 # Class Files
-.Class
+*.class
 
 # VS Code settings
 .vscode
