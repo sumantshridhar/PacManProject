@@ -1,7 +1,6 @@
 # Pac-Man Game (Java Swing)
 
-A classic **Pac-Man** game implemented using **Java Swing**, featuring multiple levels, score tracking, sound effects, and a custom HUD.  
-This project was developed as part of a college assignment to demonstrate concepts of **OOP, event handling, graphics rendering, and game state management** in Java.
+A classic **Pac-Man** game implemented using **Java Swing**, featuring multiple levels, score tracking, sound effects, and a custom HUD.
 
 ---
 
